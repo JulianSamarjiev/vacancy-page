@@ -25,8 +25,10 @@ Depending on the app building architecture, the `VacancyPage.js` component could
 
 ### Summary
 
-- Added a logo for some personality and branding
-- All links are empty (pointing to `#`). All routing would usually be handled by something like [React Router](https://github.com/ReactTraining/react-router)
+- Added a logo for some personality and branding.
+- All links are empty (pointing to `#`). All routing would usually be handled by something like [React Router](https://github.com/ReactTraining/react-router).
 - Form data is stored in the state as per React best practices. From there it would be ideally submitted.
-- The state of the application can be checked/tested with [React Chrome Developer Tools](https://reactjs.org/blog/2014/01/02/react-chrome-developer-tools.html)
+- The state of the application can be checked/tested with [React Chrome Developer Tools](https://reactjs.org/blog/2014/01/02/react-chrome-developer-tools.html).
 - [React-Bootstrap](https://react-bootstrap.github.io/) is used for the grid layout, as well as the UI components (form, alert etc.).
+- [react-burger-menu](https://github.com/negomi/react-burger-menu) is used for the collapsible navigation.
+- [react-accessible-accordion](https://github.com/springload/react-accessible-accordion) is used for the accordion FAQ section.
