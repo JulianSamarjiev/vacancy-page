@@ -1,0 +1,48 @@
+.Footer {
+  background-color: #000;
+}
+
+.Footer ul {
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.Footer ul li {
+  margin-bottom: 40px;
+}
+
+.Footer ul li:last-child {
+  margin-bottom: 0;
+}
+
+.Footer ul li a {
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.Footer-logo-social {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.Footer-logo-social div {
+  color: lightgrey;
+  font-size: 12px;
+}
+
+.Footer-logo-social ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.Footer-logo-social ul li a {
+  padding: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .Footer {
+    text-align: center;
+  }
+}

@@ -1,0 +1,70 @@
+.VacancyPage-header {
+  /* Photo by Perry Grone on Unsplash */
+  background-image: url(./team-minified.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VacancyPage-header h1 {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.VacancyPage-form {
+  padding: 50px 0;
+}
+
+.VacancyPage-faq {
+  padding: 50px 0;
+}
+
+/* -------------------------- */
+/* OVERWRITE BOOTSTRAP STYLES */
+/* -------------------------- */
+
+.VacancyPage .form-control {
+  border-radius: 0;
+}
+
+.VacancyPage .btn-default {
+  background-color: #ffca2a;
+  border: none;
+  border-radius: 0;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-transform: uppercase;
+}
+
+.VacancyPage .btn-default:hover {
+  background-color: #fed865;
+}
+
+/* -------------------------- */
+/* OVERWRITE ACCORDION STYLES */
+/* -------------------------- */
+
+.VacancyPage-faq h4 {
+  margin-top: 0;
+  line-height: 25px;
+}
+
+.VacancyPage-faq .accordion__title {
+  background-color: #fff;
+}
+
+.VacancyPage-faq .accordion__title:hover {
+  background-color: #fed865;
+}
+
+/* Mobile styles */
+
+@media (max-width: 767px) {
+  .VacancyPage-header h1 {
+    font-size: 40px;
+  }
+}
